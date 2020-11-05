@@ -1,0 +1,97 @@
+body{
+background-color: rgb(63, 19, 19)    
+}
+section{
+color: yellow;
+font-family: Comic, Arial, Helvetica, sans-serif;
+line-height: 22px;
+font-size: 18px;
+margin:0;
+;
+}
+header {
+    font-family:Impact, Char, sans-serif ;
+    color: blue;
+    font-size: 24px;
+background-image: url('../images/pattern.png');
+}
+.container{ 
+width:80%;
+margin:auto;
+overflow:hidden;
+
+}
+
+#main-header{
+background-color:green;
+color: black;
+
+
+}
+       
+#navbar{
+    background-color: cyan;
+    color: white;
+    word-spacing: 400px;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none; 
+
+}
+
+#navbar li{
+display:inline;
+}
+
+
+#navbar a{
+color:red;
+text-decoration: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size:18px;
+padding-right: 15px;
+
+}
+
+#showcase{
+background-image:url('../images/shoe.jpg');
+background-position:center right;
+min-height: 300px;
+margin-bottom:30px;
+text-align: center;
+}
+
+#showcase h1{ 
+    color:#fff;
+    font: size 50px;
+    line-height: 1.6em;
+    padding-top: 30px; 
+}
+
+#main{ 
+float:left;
+width:70%;
+padding:0 30px;
+box-sizing: border-box;
+}
+
+#main-footer{
+    background: #333;
+    color:#fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none; 
+    }
+    #sidebar{
+        width: 100%;
+        float: none; 
+    }
+
+}
