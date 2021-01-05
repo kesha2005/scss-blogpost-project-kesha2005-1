@@ -1,0 +1,202 @@
+html {
+
+
+
+    h1 {
+        position: absolute;
+        right: 1000px;
+        background-color: lightseagreen;
+    }
+    
+    h2 {
+        position: absolute;
+        top: 70px;
+        
+    }
+    .wrapper a {
+     /*basic styles*/
+     width: 250px;  height: 50px;  color: white; background-color: lightseagreen;
+     text-align: center;  font-size: 30px;  line-height: 50px;
+     
+     
+    
+     
+     /*border styles*/
+     border-top: solid 2px lightseagreen;
+     border-bottom: solid 1px #51281f;
+     border-right: solid 1px lightseagreen;
+     border-left: solid 1px lightseagreen;
+     -moz-border-radius: 30px;
+     -webkit-border-radius: 30px;
+     border-radius: 30px;
+        bottom: -30px;
+      }
+      
+      
+      
+      
+      .wrapper b {
+        width: 120px;
+        height: 80px;
+        text-decoration: none;
+        border: 2px solid #ff0000;
+        color: #000000;
+        font: size 2px;
+        text-align: center;
+        line-height: 20px;
+        margin: 10px;
+        font-family: sans-seriff;
+        position: relative;
+        bottom: -400px;
+        left: -250px;
+      }
+      
+      
+      
+      .wrapper c {
+        width: 120px;
+        height: 80px;
+        text-decoration: none;
+        border: 2px solid #ff0000;
+        color: #000000;
+        font: size 2px;
+        text-align: center;
+        line-height: 20px;
+        margin: 10px;
+        font-family: sans-seriff;
+        position: relative;
+        left: 1200px;
+        top: 400px;
+      }
+    
+    
+    
+  
+    
+      .container{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        top: 400px;
+        left: 680px;
+    }
+    
+    .image{
+        display: block;
+        width: 200px;
+        height: 200px;
+    
+    }
+    
+    .overlayLeft{
+        height: 100%;
+        width: 0;
+        top: 0;
+        left: 0;
+    }
+    
+    .container:hover .overlayLeft{
+        width: 200%;
+        height: 110%;
+    }
+    
+    .overlay{
+        position: absolute;
+        transition: all .3s ease;
+        opacity: 0;
+        background-color: #eee;
+    }
+    
+    .container:hover .overlay{
+        opacity: 1;
+    }
+    
+    .text{
+        color: white;
+        font-family: sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 50px;    
+    }
+    
+    
+      h4 {
+          position: absolute;
+          left: 700px;
+          top: 200px;
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 40px;
+        }
+      
+    
+      
+      
+      .wrapper d {
+    /*basic styles*/
+    width: 250px;  height: 50px;  color: #171717; background-color: #4f4f4f;
+    text-align: center;  font-size: 30px;  line-height: 50px;
+    position: absolute; 
+    
+    
+    
+    /*border styles*/
+    border-top: solid 2px #8f8f8f;
+    border-bottom: solid 2px #1a1a1a;
+    border-left: solid 2px #4f4f4f;
+    border-right: solid 2px #4f4f4f;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+        left: 1600px;
+        top: 30px;
+      
+       
+      }
+      
+      
+      
+      .wrapper a:hover, .wrapper b:hover, .wrapper c:hover {
+        color: #fff;
+        background-color: red;
+        transition: 2s;
+        }
+      
+      
+      
+        
+      
+    
+      
+      
+            .wrapper d:hover {
+        
+              background-color: white;
+            transition: 2s;  
+            color: blue;
+              }
+      
+              .wrapper e:hover {
+                background-color: white;
+                color:blue;
+                transition:2s
+              
+                }
+              
+                .wrapper::before{
+                  content: "";
+        position: absolute;
+        left: 0;
+        width: 80%;
+        height: 0%;
+        background: #3498db;
+        z-index: -1;
+        transition: 4s;
+      
+    
+                }
+    
+
+            }
